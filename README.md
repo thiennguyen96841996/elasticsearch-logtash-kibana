@@ -56,3 +56,12 @@ $ docker compose down
 ## Log destination
 - ~/Documents/usj_access_log/recruit.usj.co.jp-access_log-20230514:/home/usj/recruit.usj.co.jp-access_log-20230514.log
 - ~/Documents/usj_access_log/recruit.usj.co.jp-access_log-20230521:/home/usj/recruit.usj.co.jp-access_log-20230521.log
+
+## ファイル読み込み状況確認
+http://localhost:9200/_cat/indices?v
+
+## ログ分析ツール
+http://localhost:5601
+
+
+$ docker compose down
