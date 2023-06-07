@@ -53,6 +53,6 @@ Stop and remove the containers
 $ docker compose down
 ```
 
-## Attribution
-
-The [example Nginx logs](https://github.com/docker/awesome-compose/tree/master/elasticsearch-logstash-kibana/logstash/nginx.log) are copied from [here](https://github.com/elastic/examples/blob/master/Common%20Data%20Formats/nginx_json_logs/nginx_json_logs).
+## Log destination
+- ~/Documents/usj_access_log/recruit.usj.co.jp-access_log-20230514:/home/usj/recruit.usj.co.jp-access_log-20230514.log
+- ~/Documents/usj_access_log/recruit.usj.co.jp-access_log-20230521:/home/usj/recruit.usj.co.jp-access_log-20230521.log
