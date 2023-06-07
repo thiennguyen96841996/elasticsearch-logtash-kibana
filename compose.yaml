@@ -23,8 +23,12 @@ services:
       LS_JAVA_OPTS: "-Xms512m -Xmx512m"
     volumes:
       - ./logstash/pipeline/logstash.conf:/usr/share/logstash/pipeline/logstash.conf
-      - ~/Documents/usj_access_log/recruit.usj.co.jp-access_log-20230514:/home/usj/recruit.usj.co.jp-access_log-20230514.log
-      - ~/Documents/usj_access_log/recruit.usj.co.jp-access_log-20230521:/home/usj/recruit.usj.co.jp-access_log-20230521.log
+#      - ~/Documents/usj_access_log/recruit.usj.co.jp-access_log-20230514:/home/usj/recruit.usj.co.jp-access_log-20230514.log
+#      - ~/Documents/usj_access_log/recruit.usj.co.jp-access_log-20230521:/home/usj/recruit.usj.co.jp-access_log-20230521.log
+#      - ~/Documents/usj_access_log/recruit.usj.co.jp-access_log-20230528:/home/usj/recruit.usj.co.jp-access_log-20230528.log
+      - ~/Documents/usj_access_log/recruit.usj.co.jp-access_log-20230604:/home/usj/recruit.usj.co.jp-access_log-20230604.log
+      - ~/Documents/usj_access_log/recruit.usj.co.jp-access_log-20230611:/home/usj/recruit.usj.co.jp-access_log-20230611.log
+      - ~/Documents/usj_access_log/recruit.usj.co.jp-access_log:/home/usj/recruit.usj.co.jp-access_log.log
     ports:
       - "5000:5000/tcp"
       - "5000:5000/udp"
